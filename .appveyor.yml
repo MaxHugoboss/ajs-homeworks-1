@@ -10,11 +10,13 @@ cache: node_modules  # кеширование
 install:
   - npm install  # команда установки зависимостей
 
-build: 
-  mode: Script
-  script:
-    - npm install
-    - npm run build
+build_script:
+  - mode: Script
+    script:
+      - npm install
+      - npm run build
+
 
 test_script:
-  - npm run lint && npm test  # скрипт тестирования
+  - npm run lint && npm test
+
