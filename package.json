@@ -15,6 +15,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
+  
   "author": "Maksim Gorelov <m.gorelov.91@yandex.ru>",
   "license": "MIT",
   "devDependencies": {
